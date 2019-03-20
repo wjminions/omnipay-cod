@@ -1,0 +1,28 @@
+{
+    "name": "wjminions/omnipay-cod",
+    "type": "library",
+    "description": "Cod driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "cod gateway service",
+        "merchant",
+        "cod",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/wjminions/omnipay-cod",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wjminions",
+            "homepage": "https://github.com/wjminions/omnipay-cod"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Cod\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    }
+}
